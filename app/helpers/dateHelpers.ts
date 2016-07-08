@@ -1,6 +1,6 @@
 /**
  * Copyright © 2015-2016 Noesys Software Pvt.Ltd. - All Rights Reserved
- * -------------
+ * -------------',
  * This file is part of Infoveave.
  * Infoveave is dual licensed under Infoveave Commercial License and AGPL v3
  * -------------
@@ -58,7 +58,7 @@ export class DateHelpers {
                 break;
             case 104:
                 startDate = moment(startDate).subtract(1, "week").startOf("week").toDate();
-                endDate = moment(startDate).subtract(1, "week").endOf("week").toDate();
+                endDate = moment(endDate).subtract(1, "week").endOf("week").toDate();
                 break;
             case 201:
                 startDate = moment(startDate).startOf("month").toDate();

@@ -61,7 +61,7 @@ ul.time-picker > li {
   max-height: 370px;
   width: 700px;
   background-color: #FAFAFA;
-  position: fixed;
+  position: absolute;
   /*top: 90px; --p-- */
   right: 40px;
   border: 1px solid rgba(230, 230, 230, 0.7);

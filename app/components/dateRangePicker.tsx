@@ -1,6 +1,6 @@
 /**
  * Copyright © 2015-2016 Noesys Software Pvt.Ltd. - All Rights Reserved
- * -------------
+ * -------------',
  * This file is part of Infoveave.
  * Infoveave is dual licensed under Infoveave Commercial License and AGPL v3
  * -------------
@@ -40,9 +40,9 @@ interface IDateRangePickerState {
 export class DateRangePicker extends BaseComponent<IDateRangePickerProps, IDateRangePickerState> {
     static displayName = "DateRangePicker";
     private dateRanges = [{ id: 101, name: this.gs("ThisWeek") },
+        { id: 104, name: this.gs("LastWeek") },
         { id: 102, name: this.gs("Last2Weeks") },
         { id: 103, name: this.gs("Last4Weeks") },
-        { id: 104, name: this.gs("LastWeek") },
         { id: 201, name: this.gs("ThisMonth") },
         { id: 202, name: this.gs("Last2Months") },
         { id: 203, name: this.gs("Last3Months") },
