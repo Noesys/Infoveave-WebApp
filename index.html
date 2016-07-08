@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <script type="text/javascript">
+        var appInsights=window.appInsights||function(config){
+            function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;for(s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
+        }({
+            instrumentationKey:"543af4c3-6f9c-4c7d-95ff-1cc325aa5e76"
+        });
+        
+        window.appInsights=appInsights;
+        appInsights.trackPageView();
+    </script>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8" />
+    <title>Infoveave: </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/ico/favico/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/ico/favico/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/ico/favico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/ico/favico/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/ico/favico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/ico/favico/apple-touch-icon-120x120.png">
+    <link rel="icon" type="image/png" href="/assets/ico/favico/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/ico/favico/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/ico/favico/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/ico/favico/manifest.json">
+    <link rel="mask-icon" href="/assets/ico/favico/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/ico/favico/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="/assets/ico/favico/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta content="" name="description" />
+    <meta content="Naresh Jois, Noesys Software Pvt Ltd" name="author" />
+    <script type="text/javascript" src="/assets/plugins/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/plugins/pace/pace-theme-flash.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/plugins/bootstrap-select2/select2.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/plugins/jquery-metro/metroJs.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/pages-icons.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/fixed-data-table.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/plugins/jquery-pivot/jquery-pivot.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/bootstrap-datepicker.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/daterangepicker.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/react-select.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/react-data-grid.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/hint.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/fonts/open-sans-fontface/open-sans.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/charting/leaflet.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/charting/markercluster.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/charting/Control.OSMGeocoder.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/pages.css" class="main-stylesheet" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/infoveave.css" class="theme-stylesheet" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/input-color.css" />
+    <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/lodash.min.js"></script>
+    <script type="text/javascript" src="/assets/js/moment.min.js"></script>
+    <script type="text/javascript" src="/assets/js/keymage.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/pace/pace.min.js"></script>
+    <style type="text/css">
+        .topToolbar {
+            margin-top: 10px;
+        }
+        
+        .modal-body > .row {
+            margin: 0px;
+        }
+        
+        .select2-drop-mask {
+            z-index: 1700;
+        }
+        
+        .form-group > .radio {
+            margin-top: 8px;
+        }
+        
+        .dataRageBackdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 450;
+        }
+        
+        #app-Container {
+            height: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+ (function () {
+    localStorage.setItem("Tenant", "default");   
+ })();
+    </script>
+</head>
+
+<body class="fixed-header">
+    <div id="app-Container">
+
+    </div>
+    <script type="text/javascript" src="/assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-validation/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-metro/metroJs.min.js"></script>
+    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/classie/classie.js"></script>
+    <script type="text/javascript" src="/assets/plugins/select2/select2.js"></script>
+    <script type="text/javascript" src="/assets/plugins/bootbox/bootbox.js"></script>
+    <script type="text/javascript" src="/assets/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/bootstrap-form-wizard/js/jquery.bootstrap.wizard.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/papaparse/papaparse.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/tv4/tv4.js"></script>
+    <script type="text/javascript" src="/assets/charting/d3.v3.js"></script>
+    <script type="text/javascript" src="/assets/charting/dimple.v2.1.0.js"></script>
+    <script type="text/javascript" src="/assets/charting/d3plus.full.min.js"></script>
+    <script type="text/javascript" src="/assets/charting/d3.sankey.js"></script>
+    <script type="text/javascript" src="/assets/charting/d3.graph.js"></script>
+    <script type="text/javascript" src="/assets/charting/d3.dsradar.js"></script>
+    <script type="text/javascript" src="/assets/charting/topojson.min.js"></script>
+    <script type="text/javascript" src="/assets/charting/datamaps.all.js"></script>
+    <script type="text/javascript" src="/assets/charting/togeojson.js"></script>
+    <script type="text/javascript" src="/assets/charting/Control.OSMGeocoder.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-pivot/jquery-pivot.js"></script>
+    <script type="text/javascript" src="/assets/charting/d3.legend.min.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
+    <script type="text/javascript" src="/build/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+module.exports = {
+    "en": {
+        "userName": "User Name",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "users": "Users",
+        "password": "Passsword",
+        "createdDateTime": "Created Date & Time",
+        "isLocked": "IsLocked",
+        "save": "Save",
+        "saveUser": "Save User",
+        "role": "Role",
+        "selectRole": "Select Role",
+        "EditUser": "Edit User",
+        "AddContext": "Add Context",
+        "Context": "Context",
+        "AddUser": "Add User",
+        "AUTH-U001": "User name is empty",
+        "AUTH-U002": "User is existing with this name",
+        "AUTH-U003": "User is not exist with this name",
+        "AUTH-U005": "Image extension is not supported",
+        "AUTH-R006": "Old Passsword is not correct",
+        "DeletedSuccessfully": "User deleted successfully",
+        "UnlockSuccessfully": " User is unlocked successfully",
+        "ResetSuccessfully": " Password reset is successfully done",
+        "DeleteMessage": "Need to put some proper messsage",
+        "SavedSuccessFully": "User is saved successfully",
+        "UpdatedSuccessFully": "User is udpated successfully",
+        "ImportOrganisationBoards" : "Import Organisation Boards"
+    }
+}

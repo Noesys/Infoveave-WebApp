@@ -1,0 +1,31 @@
+{
+  "name": "InfoveaveWebApp",
+  "version": "2.0.0",
+  "authors": [
+    "Naresh Jois <naresh@noesyssoftware.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "UNLICENSED",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "jquery-ui": "~1.11.4",
+    "bootstrap": "~3.3.6",
+    "bootstrap-datepicker": "~1.5.1",
+    "font-awesome": "fontawesome#~4.5.0",
+    "lodash": "~4.0.1",
+    "hint.css": "~2.0.0",
+    "js-xlsx": "~0.8.0",
+    "react": "~0.14.7",
+    "open-sans-fontface": "^1.4.2"
+  }
+}

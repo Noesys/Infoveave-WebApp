@@ -1,0 +1,78 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "react/react.d.ts": {
+      "commit": "a44529fcb1e1cdc0355e71c42a6048de99b57c34"
+    },
+    "react/react-dom.d.ts": {
+      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
+    },
+    "axios/axios.d.ts": {
+      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
+    },
+    "underscore.string/underscore.string.d.ts": {
+      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
+    },
+    "node/node.d.ts": {
+      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
+    },
+    "react-router/history.d.ts": {
+      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
+    },
+    "react-router/react-router.d.ts": {
+      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
+    },
+    "react-bootstrap/react-bootstrap.d.ts": {
+      "commit": "5e269cec94f666c298625948c5c5ff8224846e33"
+    },
+    "moment/moment.d.ts": {
+      "commit": "5e269cec94f666c298625948c5c5ff8224846e33"
+    },
+    "moment/moment-node.d.ts": {
+      "commit": "5e269cec94f666c298625948c5c5ff8224846e33"
+    },
+    "tv4/tv4.d.ts": {
+      "commit": "86dbea8fc37d9473fee465da4f0a21bea4f8cbd9"
+    },
+    "chance/chance.d.ts": {
+      "commit": "5ea7d92bb39c7a26f49dc3de2c566d5ae325e19e"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "5ea7d92bb39c7a26f49dc3de2c566d5ae325e19e"
+    },
+    "d3/d3.d.ts": {
+      "commit": "c2939250ec2d1ecdc82fce62afb9354dd14909ea"
+    },
+    "pubsubjs/pubsub.d.ts": {
+      "commit": "12b6445d85d19a7f04f8550226ac118720520933"
+    },
+    "react-notification-system/react-notification-system.d.ts": {
+      "commit": "31c4d1e533cd47fbf8300cc0b36c0d7d96cb2984"
+    },
+    "material-ui/material-ui.d.ts": {
+      "commit": "472070cff086bedca3816c36f7f0727ea71966b7"
+    },
+    "office-js/office-js.d.ts": {
+      "commit": "95b7178e0ef33b4b88327676418b4cc3ad61df0f"
+    },
+    "pako/pako.d.ts": {
+      "commit": "32345ecb1a86750733eea0ea16356963ec4a2f61"
+    },
+    "es6-promise/es6-promise.d.ts": {
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
+    },
+    "react-infinite/react-infinite.d.ts": {
+      "commit": "a44529fcb1e1cdc0355e71c42a6048de99b57c34"
+    },
+    "async/async.d.ts": {
+      "commit": "544a35a10866b32afda9c7f029c0764558563f4f"
+    }
+  }
+}

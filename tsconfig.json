@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react",
+    "noEmit": false,
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules", "config", "developmentServer.js"]
+}

@@ -1,0 +1,175 @@
+
+.loginForm{
+    width:300px;
+    margin: 0 auto;
+}
+
+.loginLogo{
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background-color: #f0f4f7;
+}
+
+.pace .pace-activity {
+  display:none !important;
+}
+
+.slicerDiv{
+    margin-bottom: 4px !important;
+}
+
+.header{
+    background: #939393 !important;
+    border-bottom: 1px solid #939393 !important;
+}
+
+.btn{
+    background-color: #939393 !important;
+    color: #fff !important;
+}
+
+.btn-success{
+    background-color: #10cfbd !important;
+}
+
+.btn-primary{
+    border-color: #939393 !important;
+}
+
+.btn-complete{
+    border-color: #939393 !important;
+}
+
+.btn-complete.active{
+    border-color: #fff !important;
+}
+
+.btn-danger{
+    background: #f55753 !important;
+}
+
+.modal-backdrop{
+    z-index: 10;
+}
+
+.loginLogoImg{
+    width: 30%;
+}
+
+.loginCopyright{
+    text-align: center;
+    
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-size: 16px !important;
+}
+
+.navbar-nav li a:hover{
+    background: #1abc9c;
+}
+.navbar-nav li ul li a{
+    color: #000 !important;
+    font-size: 14px !important;
+}
+
+.navbar-nav li ul li a:hover{
+    color: #fff !important;
+    background: #1abc9c;
+}
+
+.header-inner .fa-question-circle{
+    color: #fff !important;
+}
+
+.infoboardDiv{
+    padding: 8px;
+    background: #34495e;
+    margin-top: 18px;
+    -webkit-box-shadow: -2px 9px 71px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 9px 71px -2px rgba(0,0,0,0.75);
+    box-shadow: -2px 9px 71px -2px rgba(0,0,0,0.75);
+}
+
+.boardTitle{
+    font-size: 35px !important;
+    color: #1abc9c;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.btn-default{
+    background-color: #939393 !important;
+    border: 1px solid #939393 !important;
+    color: #fff;
+}
+
+.btn-default:hover{
+    color: #fff !important;
+}
+
+.infoboardFilterText{
+    padding: 7px 0 0 25px;
+}
+
+.btn-noBorder{
+    border: none;
+}
+
+.btn-noBorder:hover{
+    border: none;
+}
+
+.footerLogo{
+    min-height: 100px;
+    background-image: url('../img/infoveave_logo1.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 150px;
+}
+
+.modal-header{
+    background-color: #594f8d;
+}
+
+.modal-header h3{
+    color: #fff;
+}
+
+.modal-title {
+    color: #fff!important;
+}
+
+.modal-footer .btn-default{
+    background-color: #6495ED !important;
+    border: 1px solid #6495ED !important;
+}
+
+.close{
+    opacity: 1 !important;
+    color: #fff !important;
+}
+
+sup{
+    font-size: 80%;
+}
+
+
+.table tbody tr td{
+    font-family: arial;
+}
+
+.bg-successinfo tr th{
+    color: #fff !important;
+}
+
+.bg-successinfo{
+    background-color: #229FF6;
+}
+
+#quickview{
+  z-index: 10001 !important;
+  border: none;
+}
