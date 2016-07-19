@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <script type="text/javascript">
-        var appInsights=window.appInsights||function(config){
-            function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;for(s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
-        }({
-            instrumentationKey:"543af4c3-6f9c-4c7d-95ff-1cc325aa5e76"
-        });
-        
-        window.appInsights=appInsights;
-        appInsights.trackPageView();
-    </script>
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
@@ -50,12 +40,10 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/react-data-grid.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/hint.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/fonts/open-sans-fontface/open-sans.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/charting/leaflet.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/charting/markercluster.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/charting/Control.OSMGeocoder.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/pages.css" class="main-stylesheet" />
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/infoveave.css" class="theme-stylesheet" />
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/input-color.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/custom.css" />
     <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="/assets/js/lodash.min.js"></script>
     <script type="text/javascript" src="/assets/js/moment.min.js"></script>
@@ -93,7 +81,10 @@
     </style>
     <script type="text/javascript">
  (function () {
-    localStorage.setItem("Tenant", "default");   
+     window.initMap = function() {
+            console.log("Maps Initialized");
+        }; 
+     localStorage.setItem("Tenant", "default");
  })();
     </script>
 </head>
@@ -102,6 +93,7 @@
     <div id="app-Container">
 
     </div>
+</div>
     <script type="text/javascript" src="/assets/js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="/assets/plugins/jquery-validation/jquery.validate.min.js"></script>
     <script type="text/javascript" src="/assets/plugins/jquery-validation/jquery.validate.unobtrusive.min.js"></script>
@@ -113,7 +105,6 @@
     <script type="text/javascript" src="/assets/js/bootstrap-datepicker.min.js"></script>
     <script type="text/javascript" src="/assets/plugins/bootstrap-form-wizard/js/jquery.bootstrap.wizard.min.js"></script>
     <script type="text/javascript" src="/assets/plugins/papaparse/papaparse.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/tv4/tv4.js"></script>
     <script type="text/javascript" src="/assets/charting/d3.v3.js"></script>
     <script type="text/javascript" src="/assets/charting/dimple.v2.1.0.js"></script>
     <script type="text/javascript" src="/assets/charting/d3plus.full.min.js"></script>
@@ -122,8 +113,6 @@
     <script type="text/javascript" src="/assets/charting/d3.dsradar.js"></script>
     <script type="text/javascript" src="/assets/charting/topojson.min.js"></script>
     <script type="text/javascript" src="/assets/charting/datamaps.all.js"></script>
-    <script type="text/javascript" src="/assets/charting/togeojson.js"></script>
-    <script type="text/javascript" src="/assets/charting/Control.OSMGeocoder.js"></script>
     <script type="text/javascript" src="/assets/plugins/jquery-pivot/jquery-pivot.js"></script>
     <script type="text/javascript" src="/assets/charting/d3.legend.min.js"></script>
     <script type="text/javascript" src="/assets/js/app.js"></script>
