@@ -1,5 +1,5 @@
 # Infoveave
-copy; 2015-2016, Noesys Software Pvt Ltd. 
+&copy; 2015-2016, Noesys Software Pvt Ltd. 
 
 Dual Licensed under Infoveave Commercial and AGPLv3
 
