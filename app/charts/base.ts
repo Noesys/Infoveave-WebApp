@@ -282,7 +282,7 @@ export abstract class BaseChart {
             if (inFilters != null) {
                 filtersRemaining = _.filter(filtersRemaining, (fi) => fi.query !== inFilters.query);
             }
-            return { query: f.name, operator: f.operator, items: (inFilters != null) ? inFilters.items : f.items }; // Change the items here if the behaviour explained above needs to reversed
+             return { query: f.name, operator: f.operator, items: (inFilters != null) ? f.items : inFilters.items  }; // This line now has the reverse logic - Change the items here if the behaviour explained above needs to reversed
         });
         let allFilters = _.union(commonFilters, filtersRemaining);
         // Now Using all filters replace the items in dimension with the ones in filters;
