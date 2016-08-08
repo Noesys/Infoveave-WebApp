@@ -1,6 +1,6 @@
 ﻿/**
  * Copyright © 2015-2016 Noesys Software Pvt.Ltd. - All Rights Reserved
- * -------------
+ * -------------',
  * This file is part of Infoveave.
  * Infoveave is dual licensed under Infoveave Commercial License and AGPL v3
  * -------------
@@ -54,27 +54,6 @@ export class DataSourceManager extends ApplicationView<IDataSourceManagerProps, 
             this.hideLoading();
         });
         this.avaiableDataSources = [];
-        /*if (this.canAccess(this.Module, "InfoveaveDataSource", "List")) {
-            this.avaiableDataSources.push({
-                title: this.s("CreateFileSource"),
-                smallDescription: this.s("CreateFileSourceSmallDescription"),
-                description: "",
-                imagePreview: this.getImageForType("mondrianService"),
-                images: [this.getImageForType("mondrianService")],
-                actions: (this.canAccess(this.Module, "InfoveaveDataSource", "Add")) ? [{ text: <i className="fa fa-plus"/>, action: () => { this.navigateTo("/dataSourceFileNew"); } }] : []
-            }
-            );
-       };
-        if (this.canAccess(this.Module, "GoogleDataSource", "List")) {
-           this.avaiableDataSources.push(   {   title: this.s("CreateGoogleAnalyticsSource"),
-            smallDescription: this.s("GoogleAnalyticsDescription"),
-            description: "",
-            imagePreview: this.getImageForType("googleAnalytics"),
-            images: [this.getImageForType("googleAnalytics")],
-            actions: (this.canAccess(this.Module, "GoogleDataSource", "Add")) ? [{ text: <i className="fa fa-plus"/>, action: () => { this.navigateTo("/dataSourceGoogleAnalytics"); }}] : []
-            }
-            );
-       };*/
        if (this.canAccess(this.Module, "MondrianDataSource", "List")) {
            this.avaiableDataSources.push({
                 title: this.s("CreateMondrianSource"),
@@ -89,10 +68,6 @@ export class DataSourceManager extends ApplicationView<IDataSourceManagerProps, 
     };
     getImageForType = (type: string) => {
         switch (type) {
-            case "googleAnalytics":
-                return "/assets/img/ds/googleAnalytics_pr.png";
-            case "mondrianService":
-                return "/assets/img/ds/files_pr.png";
              case "mondrianDirect":
                 return "/assets/img/ds/mondrian_pr.png";
             default:
@@ -108,13 +83,7 @@ export class DataSourceManager extends ApplicationView<IDataSourceManagerProps, 
             if (d.canShare) {
                  actions.push({ text: <i className={"fa fa-share-alt " + ((d.isPublic === true) ? " btn-success" : "") } />, primary: (d.isPublic), action: () => { this.toggleDataSource(d.id, d.isPublic); } });
             }
-            if (d.type === "mondrianService" && (this.canAccess(this.Module, "InfoveaveDataSource", "Upload"))) {
-                actions.push({ text: <i className="fa fa-cloud-upload"/>, action: () => { this.goToUpload(d.id); } });
-                actions.push({ text: <i className="fa fa-calculator"/>, action: () => { this.navigateTo(`/dataSourceEditor/${d.id}`); } });
-            }
-            if (d.type === "mondrianService" && (this.canAccess(this.Module, "InfoveaveDataSource", "Delete")) && (!d.isPublic)) {
-                actions.push({ text: <i className="fa fa-trash-o"/>, action: () => { this.deleteDataSource(d.id); } });
-            } else if ((this.canAccess(this.Module, "GoogleDataSource", "Delete") && (!d.isPublic))) {
+            if (d.type === "mondrianDirect" && (this.canAccess(this.Module, "MondrianDataSource", "Delete")) && (!d.isPublic)) {
                 actions.push({ text: <i className="fa fa-trash-o"/>, action: () => { this.deleteDataSource(d.id); } });
             }
             return {
